@@ -1,0 +1,231 @@
+/* Manage the Header Border  */
+.header {
+    position: absolute;
+    border: 1px solid white;
+    width: 1365px;
+    margin-left: -9px;
+    margin-top: -9px;
+    height: 55px;
+    opacity: 0.2;
+    background: white;
+}
+
+/* Manage the Facebook-logo in Header Content  */
+#Facebook-logo {
+    margin-top: -5px;
+    width: 51px;
+}
+
+/* Manage the Search-BAR  */
+#Search-BAR {
+    position: absolute;
+    margin-top: 1px;
+    height: 31px;
+    width: 216px;
+    margin-left: 3px;
+    border-radius: 57px;
+    outline: none;
+    background: rgb(240, 240, 240);
+    border: 1px solid rgb(240, 240, 240);
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Manage the Search-BAR Hover */
+#Search-BAR:hover {
+    background: rgb(227, 227, 227);
+}
+
+/* Manage the Search-BAR  */
+#Search-BAR::placeholder {
+    font-family: sans-serif;
+}
+
+/* Manage the Search-icon  */
+#Search-icon {
+    position: absolute;
+    margin-left: 20px;
+    z-index: 100;
+    margin-top: 11px;
+    width: 17px;
+    opacity: 0.6;
+}
+
+/* Manage the Home icon  */
+#Home-logo {
+    position: absolute;
+    width: 32px;
+    margin-left: 458px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+/* Manage the Contact icon */
+#Contact{
+    position: absolute;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left:544px;
+    width: 23px;
+}
+
+/* Manage the Video icon */
+#Video{
+    position: absolute;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 630px;
+    width: 39px;
+}
+
+/* Manage the Community icon */
+#Community{
+    position: absolute;
+    margin-top: 6px;
+    cursor: pointer;
+    margin-left: 721px;
+    width: 47px;
+}
+
+/* Manage the Gamming icon */
+#Game{
+    position: absolute;
+    margin-top: 6px;
+    cursor: pointer;
+    margin-left: 810px;
+    width: 49px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+/* Manage the combine-notification  */
+.cover {
+    position: absolute;
+    margin-left: 1193px;
+    margin-top: -48px;
+    border: 1px solid rgb(227, 227, 227);
+    width: 42px;
+    height: 36px;
+    border-radius: 34px;
+    background: rgb(227, 227, 227);
+    cursor: pointer;
+}
+
+.cover1 {
+    position: absolute;
+    margin-left: 1244px;
+    margin-top: -48px;
+    border: 1px solid rgb(227, 227, 227);
+    width: 42px;
+    height: 36px;
+    border-radius: 32px;
+    background: rgb(227, 227, 227);
+    cursor: pointer;
+}
+
+#Massenger-logo {
+    position: absolute;
+    width: 24px;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.Message {
+    display: none;
+}
+
+.cover:hover .Message {
+    display: block;
+    position: absolute;
+    border: 1px solid;
+    margin-top: 49px;
+    width: 107px;
+    text-align: center;
+    margin-left: -31px;
+    background: black;
+    color: white;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 6px;
+    font-family: math;
+    z-index: 8000;
+}
+
+
+#Notification-logo {
+    position: absolute;
+    width: 22px;
+    margin-top: 8px;
+    margin-left: 9px;
+    border-radius: 26px;
+}
+
+.Notification {
+    display: none;
+ }
+ 
+ .cover1:hover .Notification{
+     display: block;
+     position: absolute;
+     border: 1px solid;
+     margin-top: 49px;
+     width: 117px;
+     text-align: center;
+     margin-left: -37px;
+     background: black;
+     color: white;
+     height: 25px;
+     font-size: 20px;
+     border-radius: 6px;
+     font-family: math;
+     z-index: 8000;
+ }
+
+.cover2 {
+    position: absolute;
+    margin-left: 1286px;
+    margin-top: -48px;
+    cursor: pointer;
+}
+
+#Profile {
+    position: absolute;
+    width: 42px;
+    height: 36px;
+    margin-top: 0;
+    margin-left: 9px;
+    border-radius: 32px;
+}
+
+.Account{
+   display: none;
+}
+
+.cover2:hover .Account{
+    display: block;
+    position: absolute;
+    border: 1px solid;
+    margin-top: 49px;
+    width: 93px;
+    text-align: center;
+    margin-left: -23px;
+    background: black;
+    color: white;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 6px;
+    font-family: math;
+    z-index: 8000;
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* Manage the Main-Body  */
+.MainBody {
+    position: absolute;
+    border: 1px solid;
+    margin-top: -2px;
+    width: 1365px;
+    margin-left: -9px;
+    height: 567px;
+    opacity: 0.2;
+    background: rgb(174, 174, 174);
+}
